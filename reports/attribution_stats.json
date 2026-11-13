@@ -1,0 +1,195 @@
+{
+  "seed_kind": "proxy",
+  "default_k": 30,
+  "registry_override_active": false,
+  "run_time_seconds": 83.8,
+  "peak_memory_mb": 595.73,
+  "graph": {
+    "nodes": 822942,
+    "directed_edges_total": 2784344,
+    "directed_self_loops": 8707,
+    "directed_non_self_loop_edges": 2775637,
+    "distinct_undirected_edges": 2772474,
+    "reciprocal_directed_edge_pairs": 3163,
+    "symmetrised_matrix_nonzeros": 5544948
+  },
+  "path_reconstruction_benchmark": {
+    "sample_wallet_address": "1111DAYXhoxZx2tsRnzimfozo783x1yC2",
+    "sample_nearest_seed_id": "VASP-PROXY-10",
+    "sample_hops": 4,
+    "path_length_nodes": 5,
+    "index_path_reconstruction_ms": 0.0461,
+    "on_demand_bfs_path_reconstruction_ms": 761.08,
+    "full_trace_subgraph_ms": 382.985,
+    "trace_subgraph_nodes": 12,
+    "trace_subgraph_edges": 11
+  },
+  "active_index_stats": {
+    "total_addresses": 822942,
+    "reachable_addresses": 822935,
+    "unattributed_addresses": 7,
+    "reachable_share": 1.0,
+    "reachable_within_2_hops_count": 126431,
+    "reachable_within_2_hops_share": 0.1536,
+    "reachable_within_4_hops_count": 576785,
+    "reachable_within_4_hops_share": 0.7009,
+    "reachable_within_6_hops_count": 738666,
+    "reachable_within_6_hops_share": 0.8976,
+    "illicit_reachable_count": 14266,
+    "licit_reachable_count": 251088,
+    "median_hops_illicit": 4.0,
+    "median_hops_licit": 3.0
+  },
+  "sensitivity_by_k": {
+    "10": {
+      "total_addresses": 822942,
+      "reachable_addresses": 822935,
+      "unattributed_addresses": 7,
+      "reachable_share": 1.0,
+      "reachable_within_2_hops_count": 85582,
+      "reachable_within_2_hops_share": 0.104,
+      "reachable_within_4_hops_count": 514143,
+      "reachable_within_4_hops_share": 0.6248,
+      "reachable_within_6_hops_count": 713477,
+      "reachable_within_6_hops_share": 0.867,
+      "illicit_reachable_count": 14266,
+      "licit_reachable_count": 251088,
+      "median_hops_illicit": 5.0,
+      "median_hops_licit": 3.0
+    },
+    "30": {
+      "total_addresses": 822942,
+      "reachable_addresses": 822935,
+      "unattributed_addresses": 7,
+      "reachable_share": 1.0,
+      "reachable_within_2_hops_count": 126431,
+      "reachable_within_2_hops_share": 0.1536,
+      "reachable_within_4_hops_count": 576785,
+      "reachable_within_4_hops_share": 0.7009,
+      "reachable_within_6_hops_count": 738666,
+      "reachable_within_6_hops_share": 0.8976,
+      "illicit_reachable_count": 14266,
+      "licit_reachable_count": 251088,
+      "median_hops_illicit": 4.0,
+      "median_hops_licit": 3.0
+    },
+    "100": {
+      "total_addresses": 822942,
+      "reachable_addresses": 822935,
+      "unattributed_addresses": 7,
+      "reachable_share": 1.0,
+      "reachable_within_2_hops_count": 157559,
+      "reachable_within_2_hops_share": 0.1915,
+      "reachable_within_4_hops_count": 601308,
+      "reachable_within_4_hops_share": 0.7307,
+      "reachable_within_6_hops_count": 747432,
+      "reachable_within_6_hops_share": 0.9082,
+      "illicit_reachable_count": 14266,
+      "licit_reachable_count": 251088,
+      "median_hops_illicit": 4.0,
+      "median_hops_licit": 3.0
+    }
+  },
+  "top_10_proxy_seeds": [
+    {
+      "seed_id": "VASP-PROXY-01",
+      "address": "17A16QmavnUfCW11DAApiJxp7ARnxN5pGX",
+      "kind": "proxy",
+      "seed_score": 0.999978,
+      "in_degree": 610,
+      "out_degree": 13816,
+      "active_time_steps": 23,
+      "btc_transacted_total": 28756.0098
+    },
+    {
+      "seed_id": "VASP-PROXY-02",
+      "address": "12cgpFdJViXbwHbhrA3TuW1EGnL25Zqc3P",
+      "kind": "proxy",
+      "seed_score": 0.999966,
+      "in_degree": 3993,
+      "out_degree": 1773,
+      "active_time_steps": 21,
+      "btc_transacted_total": 25805.9766
+    },
+    {
+      "seed_id": "VASP-PROXY-03",
+      "address": "13vHWR3iLsHeYwT42RnuKYNBoVPrKKZgRv",
+      "kind": "proxy",
+      "seed_score": 0.999947,
+      "in_degree": 3837,
+      "out_degree": 2906,
+      "active_time_steps": 27,
+      "btc_transacted_total": 3997.1963
+    },
+    {
+      "seed_id": "VASP-PROXY-04",
+      "address": "19iVyH1qUxgywY8LJSbpV4VavjZmyuEyxV",
+      "kind": "proxy",
+      "seed_score": 0.999946,
+      "in_degree": 1248,
+      "out_degree": 1093,
+      "active_time_steps": 34,
+      "btc_transacted_total": 32412.3008
+    },
+    {
+      "seed_id": "VASP-PROXY-05",
+      "address": "1Lsqcv4cg5zUctNi2qwNxMkrv1GeBboSUJ",
+      "kind": "proxy",
+      "seed_score": 0.999938,
+      "in_degree": 1125,
+      "out_degree": 1073,
+      "active_time_steps": 33,
+      "btc_transacted_total": 12537.3945
+    },
+    {
+      "seed_id": "VASP-PROXY-06",
+      "address": "1GUkazUBpXWdSJ9HbgTapAH7uybpi3Cs6K",
+      "kind": "proxy",
+      "seed_score": 0.999931,
+      "in_degree": 1175,
+      "out_degree": 1051,
+      "active_time_steps": 35,
+      "btc_transacted_total": 9727.0703
+    },
+    {
+      "seed_id": "VASP-PROXY-07",
+      "address": "1P9RQEr2XeE3PEb44ZE35sfZRRW1JHU8qx",
+      "kind": "proxy",
+      "seed_score": 0.999922,
+      "in_degree": 1279,
+      "out_degree": 2490,
+      "active_time_steps": 21,
+      "btc_transacted_total": 3078.0508
+    },
+    {
+      "seed_id": "VASP-PROXY-08",
+      "address": "1MEe2mebed8wopvy8xyjjHcEQHUPVJn2UC",
+      "kind": "proxy",
+      "seed_score": 0.999913,
+      "in_degree": 1103,
+      "out_degree": 964,
+      "active_time_steps": 39,
+      "btc_transacted_total": 11110.7705
+    },
+    {
+      "seed_id": "VASP-PROXY-09",
+      "address": "17BymcHaGRbXGnEzR2m9woUYNf9FBPPJ2P",
+      "kind": "proxy",
+      "seed_score": 0.999911,
+      "in_degree": 1144,
+      "out_degree": 961,
+      "active_time_steps": 35,
+      "btc_transacted_total": 10810.3018
+    },
+    {
+      "seed_id": "VASP-PROXY-10",
+      "address": "1N52wHoVR79PMDishab2XmRHsbekCdGquK",
+      "kind": "proxy",
+      "seed_score": 0.999911,
+      "in_degree": 12019,
+      "out_degree": 3307,
+      "active_time_steps": 10,
+      "btc_transacted_total": 6466.1777
+    }
+  ]
+}
