@@ -327,3 +327,12 @@ Recorded following the completion of P2 VASP attribution index and training of t
   - `112iinUjrcCERfyfXcXrTYjKHHuwSJ1XYh`: 29.5 ms (Risk Score: 0.0827, Method: `importance_x_deviation`)
   - `1121A3vrYYduVPMnfS87ieHFP2bwy6xriv`: 32.4 ms (Risk Score: 0.0436, Method: `importance_x_deviation`)
 - Latency strictly satisfies SPEC requirement (< 1.0s target).
+
+
+### 5.4 Environment Alignment (scikit-learn 1.8.0)
+- Model artifacts were retrained under `scikit-learn==1.8.0` to match the exact repo-wide pin in `requirements.txt`.
+- No unpickling `InconsistentVersionWarning` occurs when loading models in `scikit-learn==1.8.0`.
+- File sizes: `artifacts/baseline_model.joblib` (16.34 MB), `artifacts/graph_enhanced_model.joblib` (13.81 MB).
+- Test results under 1.8.0:
+  - Baseline (All Test): Precision = 0.5488, Recall = 0.3524, F1 = 0.4292, PR-AUC = 0.3992
+  - Graph-Enhanced (All Test): Precision = 0.8129, Recall = 0.4505, F1 = 0.5797, PR-AUC = 0.6052
