@@ -1,0 +1,30 @@
+{
+  "illicit": {
+    "wallets": [
+      {
+        "address": "12cGPFdJHGxZ9VZrV16gJWvv5228DnnK",
+        "label": "illicit",
+        "time_step": 36
+      },
+      {
+        "address": "15xZ889pQrSTuVwxyZabcDefGhIjKlMnoP",
+        "label": "illicit",
+        "time_step": 38
+      }
+    ]
+  },
+  "licit": {
+    "wallets": [
+      {
+        "address": "1LicitWalletSafe9972abcdefg",
+        "label": "licit",
+        "time_step": 42
+      },
+      {
+        "address": "1LicitMerchantExchPQR4567890123",
+        "label": "licit",
+        "time_step": 40
+      }
+    ]
+  }
+}

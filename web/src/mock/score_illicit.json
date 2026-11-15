@@ -1,0 +1,42 @@
+{
+  "address": "12cGPFdJHGxZ9VZrV16gJWvv5228DnnK",
+  "time_step": 36,
+  "risk_score": 0.8845,
+  "risk_label": "illicit",
+  "nearest_vasp": {
+    "id": "VASP-PROXY-01",
+    "name": "VASP-PROXY-01",
+    "kind": "proxy",
+    "hops": 2,
+    "confidence": "high",
+    "confidence_score": 0.3333
+  },
+  "top_features": [
+    {
+      "name": "in_degree",
+      "value": 45.0,
+      "contribution": 0.1245
+    },
+    {
+      "name": "pagerank",
+      "value": 0.0034,
+      "contribution": 0.0982
+    },
+    {
+      "name": "num_txs_as_sender",
+      "value": 12.0,
+      "contribution": 0.0811
+    },
+    {
+      "name": "mean_neighbor_degree",
+      "value": 18.5,
+      "contribution": 0.0743
+    },
+    {
+      "name": "hops",
+      "value": 2.0,
+      "contribution": 0.0621
+    }
+  ],
+  "explanation_method": "importance_x_deviation"
+}

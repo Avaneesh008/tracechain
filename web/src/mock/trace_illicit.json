@@ -1,0 +1,55 @@
+{
+  "path": [
+    "12cGPFdJHGxZ9VZrV16gJWvv5228DnnK",
+    "1MidHopAddressXYZ889",
+    "1VaspProxy01SeedHub"
+  ],
+  "nodes": [
+    {
+      "id": "12cGPFdJHGxZ9VZrV16gJWvv5228DnnK",
+      "kind": "wallet"
+    },
+    {
+      "id": "1MidHopAddressXYZ889",
+      "kind": "path"
+    },
+    {
+      "id": "1VaspProxy01SeedHub",
+      "kind": "vasp"
+    },
+    {
+      "id": "1NeighborAddrAlpha",
+      "kind": "neighbor"
+    },
+    {
+      "id": "1NeighborAddrBeta",
+      "kind": "neighbor"
+    },
+    {
+      "id": "1NeighborAddrGamma",
+      "kind": "neighbor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "12cGPFdJHGxZ9VZrV16gJWvv5228DnnK",
+      "target": "1MidHopAddressXYZ889"
+    },
+    {
+      "source": "1MidHopAddressXYZ889",
+      "target": "1VaspProxy01SeedHub"
+    },
+    {
+      "source": "12cGPFdJHGxZ9VZrV16gJWvv5228DnnK",
+      "target": "1NeighborAddrAlpha"
+    },
+    {
+      "source": "12cGPFdJHGxZ9VZrV16gJWvv5228DnnK",
+      "target": "1NeighborAddrBeta"
+    },
+    {
+      "source": "12cGPFdJHGxZ9VZrV16gJWvv5228DnnK",
+      "target": "1NeighborAddrGamma"
+    }
+  ]
+}
