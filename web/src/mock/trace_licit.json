@@ -1,0 +1,30 @@
+{
+  "path": [
+    "1LicitWalletSafe9972abcdefg",
+    "1VaspProxy03SeedHub"
+  ],
+  "nodes": [
+    {
+      "id": "1LicitWalletSafe9972abcdefg",
+      "kind": "wallet"
+    },
+    {
+      "id": "1VaspProxy03SeedHub",
+      "kind": "vasp"
+    },
+    {
+      "id": "1NeighborAddrDelta",
+      "kind": "neighbor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "1LicitWalletSafe9972abcdefg",
+      "target": "1VaspProxy03SeedHub"
+    },
+    {
+      "source": "1LicitWalletSafe9972abcdefg",
+      "target": "1NeighborAddrDelta"
+    }
+  ]
+}

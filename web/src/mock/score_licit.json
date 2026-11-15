@@ -1,0 +1,42 @@
+{
+  "address": "1LicitWalletSafe9972abcdefg",
+  "time_step": 42,
+  "risk_score": 0.0412,
+  "risk_label": "licit",
+  "nearest_vasp": {
+    "id": "VASP-PROXY-03",
+    "name": "VASP-PROXY-03",
+    "kind": "proxy",
+    "hops": 1,
+    "confidence": "high",
+    "confidence_score": 0.5
+  },
+  "top_features": [
+    {
+      "name": "total_txs",
+      "value": 3.0,
+      "contribution": -0.0512
+    },
+    {
+      "name": "fees_total",
+      "value": 0.0002,
+      "contribution": -0.0431
+    },
+    {
+      "name": "in_degree",
+      "value": 1.0,
+      "contribution": -0.0387
+    },
+    {
+      "name": "pagerank",
+      "value": 0.0001,
+      "contribution": -0.0294
+    },
+    {
+      "name": "hops",
+      "value": 1.0,
+      "contribution": -0.0215
+    }
+  ],
+  "explanation_method": "importance_x_deviation"
+}
