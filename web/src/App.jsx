@@ -19,11 +19,22 @@ export default function App() {
   const [samplesLoading, setSamplesLoading] = useState(false);
   const [apiHealth, setApiHealth] = useState(null);
 
-  // Check API health on load
+  // Check API health and check URL query params on load
   useEffect(() => {
     fetchHealth()
       .then(data => setApiHealth(data))
       .catch(() => setApiHealth({ status: 'offline', model_loaded: false, graph_nodes: 0 }));
+
+    const params = new URLSearchParams(window.location.search);
+    const tabParam = params.get('tab');
+    if (tabParam === 'metrics') {
+      setActiveTab('metrics');
+    }
+    const addrParam = params.get('address');
+    if (addrParam) {
+      setAddressInput(addrParam);
+      handleAnalyze(addrParam);
+    }
   }, []);
 
   const handleAnalyze = async (addrToAnalyze) => {
@@ -41,6 +52,13 @@ export default function App() {
       ]);
       setScoreData(scoreRes);
       setTraceData(traceRes);
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('scroll') === 'graph') {
+        setTimeout(() => {
+          const el = document.getElementById('fund-flow-graph');
+          if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' });
+        }, 300);
+      }
     } catch (err) {
       setScoreData(null);
       setTraceData(null);
@@ -238,7 +256,7 @@ export default function App() {
                 </div>
 
                 {/* Fund-flow Graph */}
-                <div className="card graph-card-box">
+                <div id="fund-flow-graph" className="card graph-card-box">
                   <FundFlowGraph
                     traceData={traceData}
                     targetAddress={analyzedAddress}
